@@ -62,3 +62,21 @@
       transform: translateX(0);
     }
   }
+
+  @media screen and (max-width: 687px) {
+    .heading-primary--main {
+      letter-spacing: 5px;
+    }
+    .heading-primary--sub {
+      letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 504px) {
+  .heading-primary--main {
+    font-size: 24px;
+  }
+  .heading-primary--sub {
+    font-size: 16px;
+  }
+}
