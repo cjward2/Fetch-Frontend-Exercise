@@ -1,5 +1,5 @@
 .header {
-    height: 80vh;
+    height: 85vh;
     background-image: linear-gradient(to right bottom, rgba(142, 111, 213, 0.8), rgba(129, 40, 180, 0.8)), url("/public/img/header.img.jpg");
     background-size: cover;
     background-position: center;
