@@ -1,0 +1,43 @@
+.form-container {
+    padding: 50px 0;
+}
+
+.form {
+    width: 33.33%;
+    margin: 0 auto;
+}
+
+.form__subscribe-text {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.btn-purple {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 64px;
+    display: block;
+    /* can add nice rounded corners but justr assigning some large number in px to border radius (100px, 200px, 500px) */
+    border-radius: 10rem;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background: rgba(129, 40, 180, 0.8);
+    margin-top: 20px;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.btn-purple:hover {
+    transform: translateY(-2px);
+}
+
+.btn-purple:focus {
+    transform: translateY(2px);
+}
